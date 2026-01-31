@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>Hi My Love ❤️</h1>
+
+  <img src="images/her.jpg" alt="My Valentine">
+
+  <p>
+    Every day with you feels special.
+    Thank you for being my peace,
+    my smile, and my favorite person.
+  </p>
+
+  <button onclick="showMessage()">Open My Heart 💌</button>
+
+  <p id="secret" class="hidden">
+    I love you more than words can explain.
+    Happy Valentine’s Day 💕
+  </p>
+
+  <p class="signature">— Justice</p>
+</div>
+
+<script>
+function showMessage() {
+  document.getElementById("secret").classList.remove("hidden");
+}
+</script>
+
+</body>
+</html>
